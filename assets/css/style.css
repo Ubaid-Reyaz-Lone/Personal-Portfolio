@@ -47,11 +47,6 @@
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
-  /**
-   * typography
-   */
-
-  /* font-family */
   --ff-poppins: 'Poppins', sans-serif;
 
   /* font-size */
@@ -89,13 +84,6 @@
 
 }
 
-
-
-
-
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
 
 *, *::before, *::after {
   margin: 0;
@@ -135,13 +123,6 @@ html { font-family: var(--ff-poppins); }
 
 body { background: var(--smoky-black); }
 
-
-
-
-
-/*-----------------------------------*\
-  #REUSED STYLE
-\*-----------------------------------*/
 
 .sidebar,
 article {
@@ -234,8 +215,8 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar {
-  width: 5px; /* for vertical scrollbar */
-  height: 5px; /* for horizontal scrollbar */
+  width: 5px; 
+  height: 5px;
 }
 
 .has-scrollbar::-webkit-scrollbar-track {
@@ -271,26 +252,11 @@ article.active {
 }
 
 
-
-
-
-/*-----------------------------------*\
-  #MAIN
-\*-----------------------------------*/
-
 main {
   margin: 15px 12px;
   margin-bottom: 75px;
   min-width: 259px;
 }
-
-
-
-
-
-/*-----------------------------------*\
-  #SIDEBAR
-\*-----------------------------------*/
 
 .sidebar {
   margin-bottom: 15px;
@@ -709,11 +675,7 @@ main {
 }
 
 .clients-item img:hover { filter: grayscale(0); }
-
-
-
 .article-title { margin-bottom: 30px; }
-
 
 .timeline { margin-bottom: 30px; }
 
@@ -805,8 +767,6 @@ main {
   height: 100%;
   border-radius: inherit;
 }
-
-
 .filter-list { display: none; }
 
 .filter-select-box {
@@ -1585,7 +1545,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 .project-list .project-img img {
-  width: 100%; /* Make images fill their container width */
-  height: 180px; /* Set a fixed height */
-  object-fit: cover; /* Ensure images cover the area without distortion */
+  width: 100%;
+  height: 180px; 
+  object-fit: cover;
 }
