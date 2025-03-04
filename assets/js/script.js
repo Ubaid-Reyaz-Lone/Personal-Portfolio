@@ -1,4 +1,3 @@
-debugger;
 const elementToggleFunc = function (elem) {
   elem.classList.toggle("active");
 };
